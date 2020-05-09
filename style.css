@@ -1,0 +1,74 @@
+/* default restting styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ddd;
+}
+header{      
+    background-color: #000;        
+}
+.top-nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+.top-nav ul li{
+    display: inline-block;
+    padding:0px 10px;     
+}
+.top-nav ul li:nth-child(2){
+    padding-right: 0px;
+}
+.top-nav ul li a{
+    display: block;
+    font-size: 14px;
+    padding:4px 0 6px;    
+    font-weight: 500;
+    color:#ccc;
+    text-decoration: none;
+}
+.top-nav ul li a:hover{
+    color:#fff;
+}
+
+.flyer{
+    height:130px;
+    width:100%;
+    background: #efeeb6;
+}
+
+
+/* Navbar styles */
+.dropdown-menu{
+    background-color: rgb(83, 83, 83);
+    padding:0px;
+    border-radius: 0;    
+}
+.dropdown-item{       
+    color:	#ccc;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+.dropdown-item:hover{
+    background:#fdfdd5;
+}
+.navbar-toggler{
+    outline: none;
+    box-shadow: none;    
+}
+
+
+@media (min-width: 576px){
+
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+.container{
+    max-width:1160px;
+}
+}
