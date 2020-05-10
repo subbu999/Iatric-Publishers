@@ -6,6 +6,9 @@
 body{
     background: #ddd;
 }
+p{
+    text-align: justify;
+}
 ul{
     margin: 0;
     list-style-type: none;
@@ -59,7 +62,7 @@ header{
     padding:3px 15px;
     margin-left: auto;
     color:rgb(238, 238, 238);
-    background-color: rgba(87, 86, 86, 0.342);
+    background-color: rgba(95, 95, 95);
     transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
@@ -70,31 +73,46 @@ header{
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
+.search-container input::placeholder{
+    color:rgb(206, 206, 206)!important;
+}
 .search-container input:focus{
     width:250px;
     box-shadow: none;
-    outline: none;    
+    outline: none;        
 }
 .search-container button{
     position: absolute;
     top:0;
-    right:10px;
+    right:5px;
     border:none;
-    background-color: transparent;
+    height: 30px;
+    width:30px;
+    border-radius: 20px;
+    background-color: rgba(95, 95, 95);
     outline: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .search-container button i{
     color:#fff;
     vertical-align: middle;
-    margin-top: 5px;
+    margin-top: -3px;    
 }
 
 
 .flyer{
     height:130px;
     width:100%;
-    background: #efeeb6;
+    box-sizing: border-box;
+    padding:5px 15px;
+    background: #fdfcc9;
 }
+
+
+
 
 
 /* Navbar styles */
@@ -131,9 +149,10 @@ header{
 }
 .why-with-us ul li{
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 16px;
 }
 .why-with-us ul i{
+    margin-top: -2px;
     margin-right: 10px;
     vertical-align: middle;
     color: rgb(142, 143, 100);
@@ -207,7 +226,7 @@ background:rgba(169, 180, 21, 0.5);
     font-size: 14px;
     display: block;
     padding:0 10px;
-    border-right:1px solid rgba(221, 221, 221, 0.5);
+    border-right:1px solid rgba(221, 221, 221, 0.315);
     text-decoration: none;
     color:#ddd;    
 }
@@ -220,6 +239,19 @@ color:#fff;
 footer p{
     font-size: 14px;
     color:#ccc;
+}
+
+.social-icons i{
+    color: #ccc;
+    margin:10px 5px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.social-icons i:hover{
+    color: #fdfcc9;
 }
 
 
