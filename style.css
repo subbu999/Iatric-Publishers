@@ -256,7 +256,11 @@ footer p{
 
 
 
-
+@media (max-width:380px){
+    .flyer img{
+        width:95%
+    }
+}
 @media (min-width: 576px){
 
 }
