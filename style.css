@@ -5,6 +5,7 @@
 }
 body{
     background: #ddd;
+    color:rgb(63, 60, 60);    
 }
 p{
     text-align: justify;
@@ -27,7 +28,30 @@ ul{
     top:5px;
     background-color: rgba(223, 222, 172, 0.808);
 }
-
+.sub-headings{
+    width: fit-content;    
+    padding:10px 0;
+    color:rgb(142, 143, 100);
+}
+.scroll-top{
+    display: none;
+}
+.scroll-top a{
+    padding:25px 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 8vw;
+    background-color: rgba(223, 222, 172, 0.5);
+    color:rgb(255, 187, 0);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+.scroll-top a:hover{
+    background-color: rgba(223, 222, 172);
+}
 header{      
     background-color: #000;        
 }
@@ -274,4 +298,9 @@ footer p{
 .container{
     max-width:1160px;
 }
+}
+@media (min-width: 1350px){
+    .scroll-top a{    
+        right:12%;
+    }
 }
