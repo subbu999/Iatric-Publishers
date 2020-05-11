@@ -3,7 +3,7 @@ $(document).ready(()=>{
     $(window).scroll(()=>{
         
         if(Math.round($(window).scrollTop())>=300){
-            $('.scroll-top').css({'display':'block'}).fadeIn(800);
+            $('.scroll-top').css({'display':'block'});            
         }
     })
     $('.scroll-top a').on("click",function(e){
