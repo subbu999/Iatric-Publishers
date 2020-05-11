@@ -208,6 +208,9 @@ background:rgba(169, 180, 21, 0.5);
 }
 
 /* key concepts */
+.key-concepts ul{
+    padding-left:10px;
+}
 .key-concepts ul li{
     padding:5px 0;
 }
