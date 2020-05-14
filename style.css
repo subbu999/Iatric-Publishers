@@ -19,6 +19,7 @@ ul{
     width: fit-content;    
     padding:10px 0;
     color:rgb(142, 143, 100);
+    margin:20px auto;
 }
 .main-headings::after{
     content: '';
@@ -142,10 +143,10 @@ header{
 
 /* Navbar styles */
 .navbar .nav-link{
-    color:rgb(235, 235, 235)!important;    
+    color:rgb(228, 228, 228)!important;    
 }
 .navbar-nav li.active a{
-    color:rgb(245, 219, 149)!important;
+    color:rgb(247, 233, 195)!important;
 }
 .dropdown-menu{
     background-color: rgb(83, 83, 83);
@@ -288,7 +289,15 @@ footer p{
     color: #fdfcc9;
 }
 
-
+/* Editor instruction styles */
+ul.editor-conscience{
+  padding-left:10px;
+  margin-bottom:10px;
+}
+ul.editor-conscience i{
+    margin-right:10px;
+    color:rgb(143, 143, 143);
+  }
 
 @media (max-width:380px){
     .flyer img{
