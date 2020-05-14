@@ -19,7 +19,7 @@ ul{
     width: fit-content;    
     padding:10px 0;
     color:rgb(142, 143, 100);
-    margin:20px auto;
+    /* margin:20px auto; */
 }
 .main-headings::after{
     content: '';
