@@ -18,8 +18,7 @@ ul{
 .main-headings{
     width: fit-content;    
     padding:10px 0;
-    color:rgb(142, 143, 100);
-    /* margin:20px auto; */
+    color:rgb(142, 143, 100);    
 }
 .main-headings::after{
     content: '';
@@ -77,12 +76,12 @@ header{
 }
 .search-container{
     position: relative;
-    width:250px;  
+    width:200px;  
     margin-top: 5px;   
     margin-bottom: 5px;   
 }
 .search-container input{
-    width:200px;
+    width:160px;
     border:none;
     border-radius: 30px;
     padding:3px 15px;
@@ -103,19 +102,18 @@ header{
     color:rgb(206, 206, 206)!important;
 }
 .search-container input:focus{
-    width:250px;
+    width:200px;
     box-shadow: none;
     outline: none;        
 }
 .search-container button{
     position: absolute;
-    top:0;
-    right:5px;
+    top:0px;
+    right:0px;
     border:none;
-    height: 30px;
-    width:30px;
+    padding:3px 8px;
     border-radius: 20px;
-    background-color: rgba(95, 95, 95);
+    background-color: rgb(95, 95, 95);
     outline: none;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -171,7 +169,7 @@ header{
     border-right:1px solid rgb(231, 231, 231);
 }
 .banner img{
-    height:300px;
+    height:400px;
     width:100%;
 }
 .why-with-us ul{
@@ -299,9 +297,36 @@ ul.editor-conscience i{
     color:rgb(143, 143, 143);
   }
 
+/* Editorial board styles */
+
+.eb-card .profile-img img{
+height:20vh;
+width:20vh;
+}
+.eb-card .card-title{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(111, 112, 68);
+}
+.eb-card .author-type{
+    font-weight: 600;
+}
+
 @media (max-width:380px){
     .flyer img{
         width:95%
+    }   
+}
+@media(min-width:370px){
+    .search-container{
+        width:250px;
+    }
+    .search-container input{
+        width:200px;
+    }
+    .search-container input:focus{
+        width:250px;
     }
 }
 @media (min-width: 576px){
