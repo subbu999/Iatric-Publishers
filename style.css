@@ -168,9 +168,14 @@ header{
     background:#fff;
     border-right:1px solid rgb(231, 231, 231);
 }
-.banner img{
+.banner{
+    background: linear-gradient(to right,  rgba(94, 55, 121, 0.2),rgba(129, 148, 21, 0.2)), url('assets/imgs/banner.jpg');
     height:400px;
     width:100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgb(153, 153, 153);
 }
 .why-with-us ul{
    margin: 20px 0px;
