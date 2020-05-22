@@ -18,21 +18,21 @@ ul{
 .main-headings{
     width: fit-content;    
     padding:10px 0;
-    color:rgb(142, 143, 100);    
+    color:#157577;    
 }
 .main-headings::after{
     content: '';
     display: block;
     width: 100%;
-    height: 3px;
+    height: 2px;
     position: relative;
     top:5px;
-    background-color: rgba(223, 222, 172, 0.808);
+    background-color: #70f3fce5;
 }
 .sub-headings{
     width: fit-content;    
     padding:10px 0;
-    color:rgb(142, 143, 100);
+    color:#157577;
 }
 .scroll-top{
     display: none;
@@ -128,14 +128,29 @@ header{
 
 
 .flyer{
-    height:130px;
+    height:140px;
     width:100%;
     box-sizing: border-box;
-    padding:5px 15px;
-    background: #fdfcc9;
+    padding:10px 15px 13px;
+    background: #116466;
 }
 
-
+/* In press */
+.review-articles .card,
+.original-articles .card{
+background-color: rgba(245, 247, 248, 0.726);
+border:1px solid rgb(211, 211, 211);
+}
+.review-articles .card-title a,
+.original-articles .card-title a{
+    color:rgb(48, 91, 160);
+    font-weight: 600;
+    text-decoration: none;
+}
+.review-articles .card-title a:hover,
+.original-articles .card-title a:hover{
+    color:rgb(85, 136, 219);
+}
 
 
 
@@ -170,7 +185,7 @@ header{
 }
 .banner{
     background: linear-gradient(to right,  rgba(94, 55, 121, 0.2),rgba(129, 148, 21, 0.2)), url('assets/imgs/banner.jpg');
-    height:400px;
+    height:295px;
     width:100%;
     background-size: cover;
     background-position: center;
@@ -198,9 +213,6 @@ header{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
-
-
 .side-content{
     background:#fff;
 }
@@ -317,6 +329,9 @@ width:20vh;
 .eb-card .author-type{
     font-weight: 600;
 }
+
+
+/* Meadia Queries */
 
 @media (max-width:380px){
     .flyer img{
