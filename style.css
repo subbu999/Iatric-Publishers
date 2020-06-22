@@ -171,7 +171,8 @@ border:1px solid rgb(211, 211, 211);
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 .dropdown-item:hover{
-    background:#fdfdd5;
+    background:#494949;
+    color:#fff;
 }
 .navbar-toggler{
     outline: none!important;
@@ -330,6 +331,12 @@ width:20vh;
     font-weight: 600;
 }
 
+/* submit manuscript styles */
+/* .form-container{    
+    width:100%;
+} */
+
+
 
 /* Meadia Queries */
 
@@ -350,7 +357,14 @@ width:20vh;
     }
 }
 @media (min-width: 576px){
-
+    .file-container{
+        position:relative;
+    }
+    .file-container button{
+        position: absolute;
+        top:38px;
+        left:293px;
+    }
 }
 @media (min-width: 768px){
 
